@@ -13,10 +13,6 @@ weight=softmax # softmax norm1 norm2
 # Run Probing (No need for changing)
 for LANG in $lang1 $lang2
 do
-  file=
-  if [ ! -f "$file" ]; then
-    touch "$file"
-  fi
   python main.py -lang $LANG -mname $model -mini $mini
 done
 
