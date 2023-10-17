@@ -1,4 +1,4 @@
-Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models (README file is still building)
+Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models (README file is working in process)
 =======
 1_RankC (env: python 3.11)
 ------------
