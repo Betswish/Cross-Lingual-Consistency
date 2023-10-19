@@ -31,28 +31,28 @@ You can modify the variables in easyrun.sh
 
 - Supported languages of BMLAMA-53:
   
-| Language | ISO 639-1 | Language | ISO 639-1 | Language | ISO 639-1 |
-| ------- | -------- | ----------- | ---------- | ------ | --------- | 
-|Catalan | ca |Azerbaijani | az | English | en |
-|Arabic	 | ar |Ukrainian | uk |Persian | fa |
-|Turkish | tr |Italian | it |Greek | el |
-|Russian | ru |Croatian | hr |Hindi | hi |
-|Swedish | sv |Albanian | sq |French | fr |
-|Irish | ga | | eu | | de |
-|Dutch | nl | | et | | he |
-|Spanish | es | | bn | | ms |
-|Serbian | sr | | hy | | ur |
-|Hungarian | hu | | la | | sl |
-|Czech | cs | | af | | gl |
-|Finnish | fi | | ro | | ko |
-|Welsh | cy | | th | | be |
-|Indonesian | id | | pt | | vi |
-|Georgian | ka | | ja | | da |
-|Bulgarian | bg | | zh | | pl |
-|Latvian | lv | | sk | | lt |
-|amil | ta | | ceb | | |
+| Language   | ISO 639-1 | Language    | ISO 639-1 | Language   | ISO 639-1 |
+| ---------- | --------- | ----------- | --------- | ---------- | --------- | 
+| Catalan    |     ca    | Azerbaijani |     az    | English    |     en    |
+| Arabic	   |     ar    | Ukrainian   |     uk    | Persian    |     fa    |
+| Turkish    |     tr    | Italian     |     it    | Greek      |     el    |
+| Russian    |     ru    | Croatian    |     hr    | Hindi      |     hi    |
+| Swedish    |     sv    | Albanian    |     sq    | French     |     fr    |
+| Irish      |     ga    | Basque      |     eu    | German     |     de    |
+| Dutch      |     nl    | Estonian    |     et    | Hebrew     |     he    |
+| Spanish    |     es    | Bengali     |     bn    | Malay      |     ms    |
+| Serbian    |     sr    | Armenian    |     hy    | Urdu       |     ur    |
+| Hungarian  |     hu    | Latin       |     la    | Slovenian  |     sl    |
+| Czech      |     cs    | Afrikaans   |     af    | Galician   |     gl    |
+| Finnish    |     fi    | Romanian    |     ro    | Korean     |     ko    |
+| Welsh      |     cy    | Thai        |     th    | Belarusian |     be    |
+| Indonesian |     id    | Portuguese  |     pt    | Vietnamese |     vi    |
+| Georgian   |     ka    | Japanese    |     ja    | Danish     |     da    |
+| Bulgarian  |     bg    | Chinese     |     zh    | Polish     |     pl    |
+| Latvian    |     lv    | Slovak      |     sk    | Lithuanian |     lt    |
+| amil       |     ta    | Cebuano     |     ceb   |            |           |
 
 
 
-## 2 Reimplement Step by Step  (Working in process)
+## 2 Reimplement Step by Step  (README file working in process)
 
