@@ -1,7 +1,7 @@
 # Cross-Lingual Consistency (CLC) of Factual Knowledge in Multilingual Language Models
 
 > [!NOTE]
-> **Easyrun** and **Reimplement_Step_by_Step** are equivalent.
+> **1_easyrun** and **2_reimplement_step_by_step** are equivalent.
 
 ## Environment: 
 Python: 3.11
