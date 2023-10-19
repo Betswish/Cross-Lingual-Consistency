@@ -1,46 +1,23 @@
-Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models (README file is working in process)
-=======
-Environment: Python 3.11
-=======
-1_RankC
-------------
-To re-implement the probing accuracy of BMLAMA-17 and BMLAMA-53,
+# Cross-Lingual Consistency (CLC) of Factual Knowledge in Multilingual Language Models
 
-- Run ``bash test_17.sh`` or ``bash test_53.sh`` to probing BMLAMA-17 and BMLAMA-53.
-	
-- The correctness and rankings are automatically saved to ``record17/`` folder or ``record53/`` folder
+## Environment: 
+Python: 3.11
 
-To compute RankC and COverlap scores
+Packages: `pip install -r requirements.txt`
 
-- Rankc: run ``bash analyze_rankings_17.sh`` or ``bash analyze_rankings_53.sh`` to get cross-lingual consistency based on RankC metric. 
-	- Our results are saved in ``results/``.
-- COverlap: run ``bash analyze_onlycorrect.sh`` to get cross-lingual consistency based on COverlap metric. 
-	- Our results are saved in ``results/``.
+## 1 Easyrun
+For a quick startup, run the following two lines to get the CLC of two languages in a PLM:
+```bash
+cd 1_easyrun
+bash easyrun.sh
+```
+
+You can modify the variables in easyrun.sh
+- `mname`: model name on Huggingface
+- `lang1` & `lang2`: abbreviation of languages in ISO 639-1 format
+- `mini`: whether use BMLAMA-17 or BMLAMA-53
+- `weight`: weight metric for RankC, choose among 'softmax' 'norm1' 'norm2'
 
 
-2_correlation
-------------
-To calculate the Pearson correlation coefficient, we already store all similarity scores between languages in BMLAMA-17 and BMLAMA-53 in these two .py files. Just run!
+## 2 Reimplement Step by Step  (Working in process)
 
-- ``python correlating_17.py`` and ``python correlating_53.py``
-
-To show the subword overlapping on Flores-200, ``cd 2_1_Flores200`` and run
-
-- ``python check_overlap_17.py`` and ``python check_overlap_53.py``
-
-To show the subword overlapping on BMLAMA, ``cd 2_2_BMLAMA`` and run
-
-- ``python check_overlap_17.py`` and ``python check_overlap_53.py``
-
-To show the typological similarities of languages in BMLAMA-17 and BMLAMA-53, install *lang2vec* by
-
-~~~~
-cd 2_3_Typological/lang2vec
-python3 setup.py install
-~~~~
-
-and download ``wget http://www.cs.cmu.edu/~aanastas/files/distances.zip`` to ``lang2vec/data`` dictionary.
-
-Then go back to ``2_3_Typological`` and run
-
-- ``python check_similarity_17.py`` and ``python check_similarity_53.py``
