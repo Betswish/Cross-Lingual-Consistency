@@ -1,7 +1,7 @@
 # Cross-Lingual Consistency (CLC) of Factual Knowledge in Multilingual Language Models
 
 ## Environment: 
-Python version: 3.11
+Python: 3.11
 
 Packages: `pip install -r requirements.txt`
 
@@ -17,39 +17,40 @@ You can modify the variables in easyrun.sh
 - `lang1` & `lang2`: Abbreviation of languages in ISO 639-1 format. See tables below for details.
 - `mini`: `yes` for using BMLAMA-17 (`yes`) and `no` for using BMLAMA-53.
 - `weight`: Weight metric for RankC, choose among `softmax` `norm1` `norm2`.
- 
-|  Language (BMLAMA-17)  |  ISO 639-1     | Language (BMLAMA-17)  |  ISO 639-1 |
-| ---------------------- | ----------------- | ---------------------- | ----------------- | 
-|    | en |    | fr  |
-|    | nl |    | es  |
-|    | ru |    | ja  |
-|    | zh |    | ko  |
-|    | vi |    | el  |
-|    | hu |    | he  |
-|    | tr |    | ca  |
-|    | ar |    | uk  |
-|    | fa |  
 
-|  Language (BMLAMA-53)  |  ISO 639-1  |  Language (BMLAMA-53)  |  ISO 639-1  |  Language (BMLAMA-53)  |  ISO 639-1  |
-| ---------------------- | ----------------- | ---------------------- | ----------------- | ---------------------- | ----------------- | 
-|    | ca |    |  az  |    |  en  |
-|    | ar |    |  uk  |    |  fa  |
-|    | tr |    |  it  |    |  el  |
-|    | ru |    |  hr  |    |  hi  |
-|    | sv |    |  sq  |    |  fr  |
-|    | ga |    |  eu  |    |  de  |
-|    | nl |    |  et  |    |  he  |
-|    | es |    |  bn  |    |  ms  |
-|    | sr |    |  hy  |    |  ur  |
-|    | hu |    |  la  |    |  sl  |
-|    | cs |    |  af  |    |  gl  |
-|    | fi |    |  ro  |    |  ko  |
-|    | cy |    |  th  |    |  be  |
-|    | id |    |  pt  |    |  vi  |
-|    | ka |    |  ja  |    |  da  |
-|    | bg |    |  zh  |    |  pl  |
-|    | lv |    |  sk  |    |  lt  |
-|    | ta |    |  ceb |
+- Supported languages of BMLAMA-17:
+  
+| Language  | ISO 639-1 | Language  | ISO 639-1 | Language   | ISO 639-1 |
+| --------- | --------- | --------- | --------- | ---------- | --------- | 
+| English   |     en    | French    |     fr    | Dutch      |     nl    |
+| Spanish   |     es    | Russian   |     ru    | Japanese   |     ja    |
+| Chinese   |     zh    | Korean    |     ko    | Vietnamese |     vi    |
+| Greek     |     el    | Hungarian |     hu    | Hebrew     |     he    |
+| Turkish   |     tr    | Catalan   |     ca    | Arabic     |     ar    |
+| Ukrainian |     uk    | Persian   |     fa    |            |           |
+
+- Supported languages of BMLAMA-53:
+  
+| Language | ISO 639-1 | Language | ISO 639-1 | Language | ISO 639-1 |
+| ------- | -------- | ----------- | ---------- | ------ | --------- | 
+|Catalan | ca |Azerbaijani | az | English | en |
+|Arabic	 | ar |Ukrainian | uk |Persian | fa |
+|Turkish | tr |Italian | it |Greek | el |
+|Russian | ru |Croatian | hr |Hindi | hi |
+|Swedish | sv |Albanian | sq |French | fr |
+|Irish | ga | | eu | | de |
+|Dutch | nl | | et | | he |
+|Spanish | es | | bn | | ms |
+|Serbian | sr | | hy | | ur |
+|Hungarian | hu | | la | | sl |
+|Czech | cs | | af | | gl |
+|Finnish | fi | | ro | | ko |
+|Welsh | cy | | th | | be |
+|Indonesian | id | | pt | | vi |
+|Georgian | ka | | ja | | da |
+|Bulgarian | bg | | zh | | pl |
+|Latvian | lv | | sk | | lt |
+|amil | ta | | ceb | | |
 
 
 
