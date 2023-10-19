@@ -47,7 +47,7 @@ weight_metric = args.weight # softmax norm1 norm2
 lang1 = pair[0]
 lang2 = pair[1]
 
-if args.mini == 'yes:
+if args.mini == 'yes':
     folder = './record17/'
 else:
     folder = './record53/'
