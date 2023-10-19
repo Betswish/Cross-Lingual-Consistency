@@ -15,7 +15,7 @@ bash easyrun.sh
 You can modify the variables in easyrun.sh
 - `mname`: Model name on Huggingface.
 - `lang1` & `lang2`: Abbreviation of languages in ISO 639-1 format. See tables below for details.
-- `mini`: `yes` for using BMLAMA-17 (`yes`) and `no` for using BMLAMA-53.
+- `mini`: `yes` for using BMLAMA-17 and `no` for using BMLAMA-53.
 - `weight`: Weight metric for RankC, choose among `softmax` `norm1` `norm2`.
 
 - Supported languages of BMLAMA-17:
