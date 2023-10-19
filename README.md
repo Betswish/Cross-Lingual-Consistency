@@ -1,5 +1,8 @@
 # Cross-Lingual Consistency (CLC) of Factual Knowledge in Multilingual Language Models
 
+> [!NOTE]
+> You can experience all the features with **Easyrun** 😉.
+
 ## Environment: 
 Python: 3.11
 
