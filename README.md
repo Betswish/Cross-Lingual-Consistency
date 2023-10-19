@@ -42,28 +42,3 @@ and download ``wget http://www.cs.cmu.edu/~aanastas/files/distances.zip`` to ``l
 Then go back to ``2_3_Typological`` and run
 
 - ``python check_similarity_17.py`` and ``python check_similarity_53.py``
-
-
-3_rome (env: python 3.07)
-------------
-For re-implement counterfactual knowledge in Section 7
-
-To see the probabilities before editing
-~~~~
-cd notebooks/
-python rome_before.py
-~~~~
-To see the probabilities after editing
-
-~~~~
-cd notebooks/
-python rome_after.py
-~~~~
-Queries about 'Steve Jobs worked for' in all languages are:
-(If garbled, please see the raw README file.)
-
-- en (-): Steve Jobs worked for
-- es (high): Steve Jobs trabajó para
-- vi (high): Steve Jobs đã làm việc cho
-- hu (low): Steve Jobs a cégnél dolgozott
-- el (low): Ο Steve Jobs δούλευε για την
