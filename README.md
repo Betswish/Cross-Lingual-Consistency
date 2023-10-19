@@ -1,6 +1,8 @@
 Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models (README file is working in process)
 =======
-1_RankC (env: python 3.11)
+Environment: Python 3.11
+=======
+1_RankC
 ------------
 To re-implement the probing accuracy of BMLAMA-17 and BMLAMA-53,
 
@@ -16,7 +18,7 @@ To compute RankC and COverlap scores
 	- Our results are saved in ``results/``.
 
 
-2_correlation (env: python 3.11)
+2_correlation
 ------------
 To calculate the Pearson correlation coefficient, we already store all similarity scores between languages in BMLAMA-17 and BMLAMA-53 in these two .py files. Just run!
 
