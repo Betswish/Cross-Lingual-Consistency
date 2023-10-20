@@ -9,7 +9,7 @@ Python: 3.11
 Packages: `pip install -r requirements.txt`
 
 ## 1 Easyrun
-For a quick start, run the following two lines to get the CLC of two languages in a PLM:
+For a quick start, you only need to run the following **two** lines to get the CLC of two languages in a PLM:
 ```bash
 cd 1_easyrun
 bash easyrun.sh
