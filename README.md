@@ -18,7 +18,7 @@ You can modify the variables in easyrun.sh
 - `mini`: `yes` for using BMLAMA-17 and `no` for using BMLAMA-53.
 - `weight`: Weight metric for RankC, select among `softmax`, `norm1`, and `norm2`.
 
-- Supported languages of BMLAMA-17:
+## Supported languages of BMLAMA-17
   
 | Language  | ISO 639-1 | Language  | ISO 639-1 | Language   | ISO 639-1 |
 | --------- | --------- | --------- | --------- | ---------- | --------- | 
@@ -29,7 +29,7 @@ You can modify the variables in easyrun.sh
 | Turkish   |     tr    | Catalan   |     ca    | Arabic     |     ar    |
 | Ukrainian |     uk    | Persian   |     fa    |            |           |
 
-- Supported languages of BMLAMA-53:
+## Supported languages of BMLAMA-53
   
 | Language   | ISO 639-1 | Language    | ISO 639-1 | Language   | ISO 639-1 |
 | ---------- | --------- | ----------- | --------- | ---------- | --------- | 
