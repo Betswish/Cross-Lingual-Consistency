@@ -5,7 +5,7 @@ Python: 3.11
 
 Packages: `pip install -r requirements.txt`
 
-## 1 Easyrun
+## Quick Start
 For a quick start, you only need to run the following **two** lines to get the CLC of two languages in a PLM:
 ```bash
 cd 1_easyrun
@@ -51,8 +51,4 @@ You can modify the variables in easyrun.sh
 | Bulgarian  |     bg    | Chinese     |     zh    | Polish     |     pl    |
 | Latvian    |     lv    | Slovak      |     sk    | Lithuanian |     lt    |
 | amil       |     ta    | Cebuano     |     ceb   |            |           |
-
-
-
-## 2 Reimplement Step by Step  (README file working in process)
 
