@@ -3,8 +3,15 @@
 # The model you want to test on
 mname=bigscience/bloom-3b # bigscience/bloom-3b google/mt5-large xlm-roberta-large
 # Language pair
-lang1=en # en fr nl es ru ja zh ko vi el hu he tr ca ar uk fa
-lang2=fr # en fr nl es ru ja zh ko vi el hu he tr ca ar uk fa
+# For BMLAMA-17:
+# en fr nl es ru ja zh ko vi el hu he tr ca ar uk fa
+# For BMLAMA-53:
+# ca az en ar uk fa tr it el ru hr hi sv
+# sq fr ga eu de nl et he es bn ms sr hy
+# ur hu la sl cs af gl fi ro ko cy th be
+# id pt vi ka ja da bg zh pl lv sk lt ta ceb
+lang1=en
+lang2=fr
 # Dataset
 mini=yes # 'yes' for using BMLAMA17; 'no' for using BMLAMA53
 # Weight Metric
