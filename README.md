@@ -1,7 +1,7 @@
 # Cross-Lingual Consistency (CLC) of Factual Knowledge in Multilingual Language Models
 
 > [!NOTE]
-> Plans to support **more** models. Feel free to leave comments!
+> Considering to support **more** models. Feel free to leave comments!
 
 ## Environment: 
 Python: 3.11
