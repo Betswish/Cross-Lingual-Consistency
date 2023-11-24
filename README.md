@@ -11,13 +11,11 @@ Authors: [Jirui Qi](https://scholar.google.nl/citations?hl=en&user=bN9bPVUAAAAJ)
 
 If you find the paper helpful and use the content, we kindly suggest you cite through:
 ```bibtex
-@misc{qi2023crosslingual,
-      title={Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models}, 
-      author={Jirui Qi and Raquel Fernández and Arianna Bisazza},
-      year={2023},
-      eprint={2310.10378},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{qi2023cross,
+  title={Cross-Lingual Consistency of Factual Knowledge in Multilingual Language Models},
+  author={Qi, Jirui and Fern{\'a}ndez, Raquel and Bisazza, Arianna},
+  journal={arXiv preprint arXiv:2310.10378},
+  year={2023}
 }
 ```
 
