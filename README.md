@@ -2,7 +2,7 @@
 
 Authors: [Jirui Qi](https://scholar.google.nl/citations?hl=en&user=bN9bPVUAAAAJ) • [Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/) • [Arianna Bisazza](https://www.cs.rug.nl/~bisazza/) 
 
-<img src="pipeline.png" alt="Pipeline" width="500"/>
+<img src="pipeline.png" alt="Pipeline" width="800"/>
 Easy-to-use framework for evaluating cross-lingual consistency of factual knowledge (Supported LLaMA, BLOOM, mT5, RoBERTa, etc.).
 
 > [!NOTE]
