@@ -1,6 +1,6 @@
 # Cross-Lingual Consistency (CLC) of Factual Knowledge in Multilingual Language Models
 
-Easy-to-use framework for evaluating cross-lingual consistency of factual knowledge (Supported LLaMA, BLOOM, mT5, RoBERTa, etc.). The [paper](https://arxiv.org/abs/2310.10378) was accepted by [EMNLP 2023](https://2023.emnlp.org/) and [GenBench Workshop](https://genbench.org/workshop/)! 🎉
+Easy-to-use framework for evaluating cross-lingual consistency of factual knowledge (Supported LLaMA, BLOOM, mT5, RoBERTa, etc.). The [paper](https://arxiv.org/abs/2310.10378) was accepted by EMNLP 2023 and [GenBench Workshop](https://genbench.org/workshop/)! 🎉
 
 Authors: [Jirui Qi](https://scholar.google.nl/citations?hl=en&user=bN9bPVUAAAAJ) • [Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/) • [Arianna Bisazza](https://www.cs.rug.nl/~bisazza/) 
 
