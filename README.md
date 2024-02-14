@@ -47,7 +47,7 @@ cd 1_easyrun
 bash easyrun.sh
 ```
 
-You can modify the variables in easyrun.sh
+You may also like to modify the variables in easyrun.sh
 - `mname`: The model currently supports LLaMA, BLOOM, BLOOMZ, mT5, RoBERTa. Use the full model name on Huggingface! Like `bigscience/bloom-3b`.
 - `lang1` & `lang2`: Abbreviation of languages in ISO 639-1 format. See the tables below for details.
 - `mini`: `yes` for using BMLAMA-17 and `no` for using BMLAMA-53.
