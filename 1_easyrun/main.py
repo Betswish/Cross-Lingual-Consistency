@@ -142,32 +142,27 @@ if not os.path.exists(record_name):
         tokenizer = AutoTokenizer.from_pretrained(mname)
 
     device = "cuda:0" if torch.cuda.is_available() else "cpu"
-
     print("Runing on:" + device)
     print()
     model = model.to(device)
 
     data = []
-
+    
     with open(fname) as f:
         ans_cand = []
-
         for line in f:
             d = line.strip().split('\t')
-            if d[0] == "Prompt":
-                continue
-
+            if d[0] == "Prompt": continue
             if len(d) <= 1:
                 continue
             else:
                 d[1] = d[1].split(', ')
-                d[2] = d[2].split(', ')
-                
+                d[2] = d[2].split(', ')                
                 data.append(d)
 
     all_gold_ans = []
     answer_pred_orig_probs = dict()
-
+    
     pred_corr = 0
     pred_tot = 0
 
@@ -176,7 +171,6 @@ if not os.path.exists(record_name):
     answer_count = []
     rank = []
     score_full = []
-
 
     for i, d in tqdm(enumerate(data)):
     #for i, d in enumerate(data):
@@ -192,12 +186,6 @@ if not os.path.exists(record_name):
         sorted_probs = sorted(answer_pred_probs.items(), key=lambda x: x[1], reverse=False)
         
         ranked_keys = [x[0] for x in sorted_probs]
-
-        # (Useless code, to be deleted later)
-        # top_rankings = []
-        # for k in sorted_probs:
-        #     top_rankings.append(ranked_keys[:])
-        # rank.append(top_rankings[:])
         rank.append(ranked_keys[:])
 
         score_full.append(answer_pred_probs)
@@ -222,8 +210,6 @@ if not os.path.exists(record_name):
 
 
     # Saving probing results to files
-
-
     with open(folder_name + mname.replace('/', '-') + '_Rankings_' + lang + '.txt', 'w') as f:
         json.dump(rank, f)
 
