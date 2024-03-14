@@ -4,7 +4,7 @@ Easy-to-use framework for evaluating cross-lingual consistency of factual knowle
 
 Our [paper](https://aclanthology.org/2023.emnlp-main.658/) was selected for the Outstanding Paper Award in the Multilinguality and Linguistic Diversity track of [EMNLP 2023](https://2023.emnlp.org/) and the Best Data Award of [GenBench Workshop](https://genbench.org/workshop/).
 
-Authors: [Jirui Qi](https://scholar.google.nl/citations?hl=en&user=bN9bPVUAAAAJ) • [Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/) • [Arianna Bisazza](https://www.cs.rug.nl/~bisazza/) 
+Authors: [Jirui Qi](https://betswish.github.io/) • [Raquel Fernández](https://staff.fnwi.uva.nl/r.fernandezrovira/) • [Arianna Bisazza](https://www.cs.rug.nl/~bisazza/) 
 
 <img src="pipeline_example.png" alt="Pipeline" width="800"/>
 
