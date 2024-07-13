@@ -143,7 +143,6 @@ if not os.path.exists(record_name):
     data = []
     
     with open(fname) as f:
-        ans_cand = []
         for line in f:
             d = line.strip().split('\t')
             if d[0] == "Prompt": continue
