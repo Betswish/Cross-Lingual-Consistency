@@ -110,20 +110,14 @@ lang = args.lang
 
 if args.mini == 'yes':
     mini = True
-else:
-    mini = False
-
-if mini:
     fname = "BMLAMA17/" + lang + ".tsv"
-else:
-    fname = "BMLAMA53/" + lang + ".tsv"
-
-mname = args.mname
-
-if mini:
     folder_name = './record17/'
 else:
+    mini = False
+    fname = "BMLAMA53/" + lang + ".tsv"
     folder_name = './record53/'
+
+mname = args.mname
 
 record_name = folder_name + mname.replace('/', '-') + '_Rankings_' + lang + '.txt'
 
