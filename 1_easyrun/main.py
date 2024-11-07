@@ -50,16 +50,22 @@ def predict_mask(answer_cand, prompt, mname):
     
         elif "xglm" in mname or "opt" in mname or "bloom" in mname or "llama" in mname or "gpt" in mname:
             prompt_new = prompt.replace("<mask>", answer)
-                 
+            
+            # Fix the issue that Bloom Tokenizer will not automaticall add BOS token
+            if "bloom" in mname: prompt_new = "<s>" + prompt_new
+            
             model_input = tokenizer(prompt_new, return_tensors='pt').to(device)
             output = model(**model_input)
-                
-            if lang == 'zh':
-                logits = output['logits'][0, :-1] 
-                token_ids = model_input['input_ids'][0, 1:]
-            else:
-                logits = output['logits'][0, :-2] 
-                token_ids = model_input['input_ids'][0, 1:-1]
+
+            logits = output['logits'][0, :-1] 
+            token_ids = model_input['input_ids'][0, 1:]
+            
+            # if lang == 'zh':
+            #     logits = output['logits'][0, :-1] 
+            #     token_ids = model_input['input_ids'][0, 1:]
+            # else:
+            #     logits = output['logits'][0, :-2] 
+            #     token_ids = model_input['input_ids'][0, 1:-1]
     
             answer_pred_probs[answer] = float(torch.nn.CrossEntropyLoss(reduction='mean')(logits, token_ids))
         else:
