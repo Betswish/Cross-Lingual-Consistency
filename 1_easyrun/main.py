@@ -51,7 +51,7 @@ def predict_mask(answer_cand, prompt, mname):
         elif "xglm" in mname or "opt" in mname or "bloom" in mname or "llama" in mname or "gpt" in mname:
             prompt_new = prompt.replace("<mask>", answer)
             
-            # Fix the issue that Bloom Tokenizer will not automaticall add BOS token
+            # Fix the issue that Bloom Tokenizer will not automatically add the BOS token
             if "bloom" in mname: prompt_new = "<s>" + prompt_new
             
             model_input = tokenizer(prompt_new, return_tensors='pt').to(device)
